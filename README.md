@@ -1,16 +1,25 @@
 # Best Machine Learning Books
 
-This [git-annex](http://git-annex.branchable.com/) repository collates
-freely available online books on various sub-fields of Machine
-Learning.  It doesn't physically contain any of them, but rather
-contains references to original websites, from which you could fetch
-them using git-annex.  For instance
+This [DataLad](http://datalad.org) dataset collates freely available online
+books on various sub-fields of machine learning.  It doesn't physically contain
+any of them, but rather contains references to original websites.
 
-	git clone git://github.com/datalad/mlbooks
+If you like any of these books, please consider buying a physical copy to
+support the authors' work.
+
+## Obtain books
+
+### With DataLad
+
+	datalad install https://github.com/datalad-datasets/machinelearning-books.git
+	cd machinelearning-books
+	datalad get *.pdf
+
+### With git-annex
+
+	git clone https://github.com/datalad-datasets/machinelearning-books.git
 	cd mlbooks
-    git annex get *.pdf
-
-would fetch all the books available as a .pdf file.
+	git annex get *.pdf
 
 # Licenses
 
