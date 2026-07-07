@@ -18,7 +18,7 @@ support the authors' work.
 ### With git-annex
 
 	git clone https://github.com/datalad-datasets/machinelearning-books.git
-	cd mlbooks
+	cd machinelearning-books
 	git annex get *.pdf
 
 # Licenses
